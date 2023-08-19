@@ -20,7 +20,7 @@ const YoutubeVideoPlayer = ({ videoId, width }) => {
           config={{
             youtube: {
               playerVars: {
-                origin: 'http://localhost:3000'
+                origin: 'https://next-client-server-test.vercel.app
               }
             }
           }}
