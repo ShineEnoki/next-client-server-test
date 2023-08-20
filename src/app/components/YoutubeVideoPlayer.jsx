@@ -24,7 +24,7 @@ const YoutubeVideoPlayer = ({ videoId, width }) => {
               }
             }
           }}
-          origin={'http://localhost:3000'}
+          origin={'https://www.youtube.com'}
         />
       }
 

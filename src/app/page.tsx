@@ -1,10 +1,12 @@
-
-import YoutubeVideoPlayer from '../components/YoutubeVideoPlayer'
+'use client'
+import YoutubeVideoPlayer from './components/YoutubeVideoPlayer'
+import Nav from './components/Nav'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="">
       <div>
+        <Nav />
         <YoutubeVideoPlayer 
           width={300}
           videoId={'https://youtu.be/1Yzr3XNRZM8'}
